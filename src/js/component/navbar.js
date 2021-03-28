@@ -29,8 +29,14 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-light bg-light mb-3">
 			<div className="container">
+				<img
+					src="https://www.brickfanatics.com/wp-content/uploads/LEGO-Star-Wars-classic-logo-white-featured.jpeg"
+					alt=""
+					width="80"
+					height="50"></img>
+
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">Star Wars</span>
+					<span className="navbar-brand mb-2 h1">Star Wars</span>
 				</Link>
 				<div className="ml-auto">
 					<div className="dropdown dropdown-menu-right">
